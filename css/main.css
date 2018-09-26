@@ -1008,7 +1008,7 @@ h3.city-name {
     margin-top: 10px; }
   .rounded-img-wrap {
     border : orange 10px solid ;
-    overflow: hidden; }
+    overflow: visible; }
   /**/ }
 @media only screen and (min-width: 2000px) {
   .slick-initialized .slick-slide {
