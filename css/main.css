@@ -1007,7 +1007,7 @@ h3.city-name {
   .media2 p {
     margin-top: 10px; }
   .rounded-img-wrap {
-    border : green 10px solid ;
+    border : orange 10px solid ;
     overflow: hidden; }
   /**/ }
 @media only screen and (min-width: 2000px) {
