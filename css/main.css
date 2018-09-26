@@ -749,9 +749,11 @@ h3.city-name {
   margin: auto;
   transition: all 0.5s ease; }
   .rounded-img-wrap img {
-    max-width: 100%; }
+    max-width: 100%;
+    overflow: hidden;}
   .rounded-img-wrap:hover {
-    transform: scale(1.2); }
+    transform: scale(1.2);
+    overflow: hidden;}
 
 .jacor {
   margin-bottom: 10px;
