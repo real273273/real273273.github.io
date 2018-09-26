@@ -802,9 +802,7 @@ h3.city-name {
     margin: 10px -25px; }
   .media2 p {
     margin-top: 10px; }
-  .rounded-img-wrap {
-    border: green 10px solid;
-    overflow: visible;}}
+  }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -1008,4 +1006,7 @@ h3.city-name {
     margin: 10px -25px; }
   .media2 p {
     margin-top: 10px; }
+  .rounded-img-wrap {
+    border: green 10px solid;
+    overflow: visible;}
   /**/ }
