@@ -403,9 +403,7 @@ h3 {
     line-height: 30px;
     font-size: 20px;
     padding: .5em; }
-  .Akcii {
-  background-color: #fff;
-  margin: 20px 0; }
+  
 }
 
 h2.title + .owl-carousel .owl-dots .owl-dot.active span {
@@ -974,14 +972,23 @@ h3.city-name {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
+  .Akcii {
+    background-color: #fff;  
+    margin: 20px 0 0 0; }
   /**/ }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+  .Akcii {
+    background-color: #fff;  
+    margin: 20px 0 0 0; }
   /**/ }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
+  .Akcii {
+    background-color: #fff;  
+    margin: 20px 0 0 0; }
   /**/ }
 
 /* Large Devices, Wide Screens */
@@ -994,6 +1001,7 @@ h3.city-name {
     margin-top: 20px;
     right: 6px; }
   .Akcii {
+    background-color: #fff;  
     margin: 20px 0 0 0; }
   .media1 h2 {
     line-height: 20px;
