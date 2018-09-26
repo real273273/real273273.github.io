@@ -402,7 +402,11 @@ h3 {
   .title {
     line-height: 30px;
     font-size: 20px;
-    padding: .5em; } }
+    padding: .5em; }
+  .Akcii{
+    background-color: #000;
+    }    
+}
 
 h2.title + .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #50b848; }
