@@ -1013,7 +1013,7 @@ h3.city-name {
     border : blue 10px solid ;    }
   /**/ }
 
-@media only screen and (min-width: 2200px) {
+@media only screen and (min-width: 1800px) {
   .rounded-img-wrap {
     overflow : hidden;
     border : green 10px solid ;   }
