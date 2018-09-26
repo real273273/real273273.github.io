@@ -1,3 +1,7 @@
+@media screen and (max-width: 1280px) { .Akcii {background-color: #000;} }
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { .Akcii {background-color: #000;} }
+
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
 @font-face {
   font-family: Roboto Condensed;
