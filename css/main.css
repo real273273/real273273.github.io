@@ -1018,3 +1018,18 @@ h3.city-name {
     overflow : hidden;
     border : green 10px solid ;   }
   /**/ }
+@media only screen and (min-width: 2800px) {
+  .rounded-img-wrap {
+    overflow : hidden;
+    border : white 10px solid ;   }
+  /**/ }
+@media only screen and (min-width: 3400px) {
+  .rounded-img-wrap {
+    overflow : hidden;
+    border : orange 10px solid ;   }
+  /**/ }
+@media only screen and (min-width: 3800px) {
+  .rounded-img-wrap {
+    overflow : hidden;
+    border : black 10px solid ;   }
+  /**/ }
