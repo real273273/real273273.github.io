@@ -1010,26 +1010,4 @@ h3.city-name {
     border : orange 10px solid ;
     overflow: visible; }
   /**/ }
-@media only screen and (min-width: 2000px) {
-  .slick-initialized .slick-slide {
-    max-height: 400px;
-    padding-bottom: 46px;
-    margin-bottom: 10px; }
-  .button_slider a {
-    margin-top: 20px;
-    right: 6px; }
-  .Akcii {
-     
-    margin: 20px 0 0 0; }
-  .media1 h2 {
-    line-height: 20px;
-    margin: 10px -24px; }
-  .media2 h2 {
-    line-height: 20px;
-    margin: 10px -25px; }
-  .media2 p {
-    margin-top: 10px; }
-  .rounded-img-wrap {
-    border : blue 10px solid ;
-    overflow: hidden; }
-  /**/ }
+
