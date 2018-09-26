@@ -793,7 +793,6 @@ h3.city-name {
     margin-top: -20px;
     right: 6px; }
   .Akcii {
-    background-color: #fff;
     margin: 0 0; }
   .media1 h2 {
     line-height: 20px;
@@ -802,7 +801,10 @@ h3.city-name {
     line-height: 20px;
     margin: 10px -25px; }
   .media2 p {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .rounded-img-wrap{
+    border: green;
+    overflow:hidden;}}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
