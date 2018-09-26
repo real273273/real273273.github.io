@@ -1007,7 +1007,8 @@ h3.city-name {
   .media2 p {
     margin-top: 10px; }
   .rounded-img-wrap {
-    border : orange 10px solid ;
-    overflow: hidden; }
+    overflow : hidden;
+    border : blue 10px solid ;
+     }
   /**/ }
 
