@@ -1008,6 +1008,6 @@ h3.city-name {
     margin-top: 10px; }
   .rounded-img-wrap {
     border : orange 10px solid ;
-    overflow: visible; }
+    overflow: hidden; }
   /**/ }
 
