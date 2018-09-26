@@ -803,7 +803,7 @@ h3.city-name {
   .media2 p {
     margin-top: 10px; }
   .rounded-img-wrap {
-    border: green;
+    border: green 10px solid;
     overflow: visible;}}
 
 /* Medium Devices, Desktops */
