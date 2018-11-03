@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"> 
+			<title>Перевозкин</title>
+			
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>			
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+		
+		</head>
+		<body>
+	 <header id="header" class="header">
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-lg-3 col-5">
+	 				<img class="logo" src="img/logo.png" alt="">
+	 			</div>
+	 	<div class="col-lg-8 col-5 d-flex justify-content-center">
+	 <nav class="navbar navbar-expand-lg navbar-dark header_menu">
+ <div class="toggle_button">
+  	<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  	</button>
+</div>
+  	<div class="collapse navbar-collapse " id="navbar1">
+    	<ul class="navbar-nav mr-auto menu">
+      		<li class="nav-item menu_item">
+        		<a class="nav-link" href="#">О компании </a>
+      		</li>
+		    <li class="nav-item menu_item">
+		    	<a class="nav-link" href="#">Услуги</a>
+		    </li>
+      		 <li class="nav-item menu_item">
+		    	<a class="nav-link" href="#">Акции</a>
+		    </li>
+		     <li class="nav-item menu_item">
+		    	<a class="nav-link" href="#">Отзывы</a>
+		    </li> <li class="nav-item menu_item">
+		    	<a class="nav-link" href="#"><i class="fa fa-phone"></i>7 (812) 318-02-20</a>
+		    </li>
+    	</ul>
+    	
+  	</div>
+</nav>
+</div>
+
+	 		</div>
+	 	</div>
+	 </header>
+  
+  <!--Основной контент страницы -->
+  <script type="text/javascript">
+ $(document).ready(function(){
+ 
+  $(function(){
+    $('.icon').on('click', function() {
+      $(this).closest('.menu').toggleClass('menu-open');
+    });
+  });
+ })(jQuery);
+ </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="libs/bootstrap.min.js" ></script>
+
+
+<script type="text/javascript" src="js/common.js"></script>
+		</body>
+		</html>		
