@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.header {
+  background-color: #333; }
+
+.logo {
+  width: 120px;
+  height: 70px;
+  /*меню*/ }
+
+.header_menu {
+  background-color: #333; }
+
+.menu_item {
+  padding: 0 10px; }
+
+.nav-link i {
+  padding-right: 5px; }
+
+/*медиазапросы*/
+@media screen and (max-width: 768px) {
+  .logo {
+    display: block;
+    margin: 0 left;
+    width: 100px; } }
+
+.toggle_button {
+  margin: 0 right;
+  padding: 0 right;
+  position: relative;
+  top: 0; }
