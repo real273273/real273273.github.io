@@ -170,6 +170,57 @@
   margin-top: .8em;
   margin-bottom: 40px; }
 
+body {
+  background-color: #fff; }
+
+.js .slider-single > div:nth-child(1n+2) {
+  display: none; }
+
+.js .slider-single.slick-initialized > div:nth-child(1n+2) {
+  display: block; }
+
+h3 {
+  background: #f0f0f0;
+  color: #3498db;
+  font-size: 2.25rem;
+  margin: .5rem;
+  padding: 2%;
+  position: relative;
+  text-align: center; }
+
+/*слайдер*/
+.text-center {
+  text-align: center;
+  padding: 40px 0 30px; }
+
+.slide_for {
+  border: 2px solid #50b848;
+  border-radius: 10px;
+  padding: 40px 15px; }
+
+.img_usl1 {
+  height: 100%;
+  width: 100%;
+  margin: 20px; }
+
+.slider-nav_verh {
+  min-height: 170px;
+  background-color: #fff; }
+  .slider-nav_verh:hover {
+    background-color: #50b848;
+    color: #fff;
+    border-radius: 10px; }
+
+.slider-nav_verh_png {
+  margin: auto;
+  padding-top: 20px; }
+
+.slider-nav_verh_text {
+  padding-top: 20px;
+  text-align: center; }
+  .slider-nav_verh_text h2 {
+    font-size: 18px; }
+
 /*медиазапросы*/
 @media screen and (max-width: 768px) {
   .logo {
@@ -188,4 +239,26 @@
     #headerwrap h2 {
       font-size: 30px; }
   .kybiki {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .actia {
+    padding: 10px 0 10px 0; } }
+
+@media screen and (max-width: 400px) {
+  .actia {
+    padding: 10px 0 10px 0; }
+  .pull-right1 {
+    display: none; }
+  .pull-left {
+    width: 100%;
+    display: inline-block;
+    text-align: center; }
+  .offer-item {
+    padding: 10px 20px 0;
+    line-height: 1.2;
+    text-align: center; }
+  .offer-item-info {
+    bottom: 25px; }
+  .pull-left1 {
+    width: 100%;
+    display: inline-block;
+    text-align: center; } }
