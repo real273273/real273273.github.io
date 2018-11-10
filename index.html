@@ -1,131 +1,308 @@
 <!DOCTYPE html>
-		<html lang="en">
-		<head>
-			<meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1"> 
-			<title>Перевозкин</title>
-			
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>			
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Перевозкин</title>
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-		
-		</head>
-		<body>
-	 <header id="header" class="header sticky-top">
-	 	<div class="container">
-	 		<div class="row">
-	 			<div class="col-lg-3 col-3">
-	 				<img class="logo" src="img/logo.png" alt="">
-	 			</div>
-	 	<div class="col-lg-8 col-9  d-flex justify-content-center">
-	 <nav class="navbar navbar-expand-lg navbar-dark header_menu">
- <div class="toggle_button nav-left">
-  	<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
-    	<span class="navbar-toggler-icon"></span>
-  	</button>
-</div>
-  	<div class="collapse navbar-collapse nav-left  " id="navbar1">
-    	<ul class="navbar-nav mr-auto menu ">
-      		<li class="nav-item menu_item">
-        		<a class="nav-link" href="#">О компании </a>
-      		</li>
-		    <li class="nav-item menu_item">
-		    	<a class="nav-link  " href="#">Услуги</a>
-		    </li>
-      		 <li class="nav-item menu_item">
-		    	<a class="nav-link" href="#">Акции</a>
-		    </li>
-		     <li class="nav-item menu_item">
-		    	<a class="nav-link" href="#">Отзывы</a>
-		    </li> 
-		    <li class="nav-item ">
-		    	<a class="nav-lin phone" href="#"><i class="fa fa-phone"></i>7 (812) 318-02-20</a>
-		    </li>
-    	</ul>
-    	
-  	</div>
-</nav>
-</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>			
 
-	 		</div>
-	 	</div>
-	 </header>
-  
-  <!--Основной контент страницы <-->
-  		<div id="headerwrap">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+
+</head>
+<body>
+	<header id="header" class="header sticky-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-3">
+					<img class="logo" src="img/logo.png" alt="">
+				</div>
+				<div class="col-lg-8  col-9 d-flex justify-content-center">
+					<nav class="navbar navbar-expand-lg navbar-dark header_menu">
+						<div class="toggle_button nav-left">
+							<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse nav-left  " id="navbar1">
+							<ul class="navbar-nav mr-auto menu ">
+								<li class="nav-item menu_item">
+									<a class="nav-link" href="#">О компании </a>
+								</li>
+								<li class="nav-item menu_item">
+									<a class="nav-link  " href="#">Услуги</a>
+								</li>
+								<li class="nav-item menu_item">
+									<a class="nav-link" href="#">Акции</a>
+								</li>
+								<li class="nav-item menu_item">
+									<a class="nav-link" href="#">Отзывы</a>
+								</li> 
+								<li class="nav-item ">
+									<a class="nav-lin phone" href="#"><i class="fa fa-phone"></i>7 (812) 318-02-20</a>
+								</li>
+							</ul>
+
+						</div>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<!--Основной контент страницы <-->
+	<div id="headerwrap">
 		<div class="container">
 			<div class="row">
 				
-					<div class="headtext col-lg-6 ">
-						<h1>Компания</h1>
-						<h2>Перевозкин</h2>
+				<div class="headtext col-lg-6 ">
+					<h1>Компания</h1>
+					<h2>Перевозкин</h2>
 
-						<h4>Мы предлагаем квалифицированные и недорогие услуги для частных и юридических лиц. Наш коллектив специалистов может перевезти товары в магазин и из магазина, реализовать офисный или дачный переезд. Также у нас можно вызвать грузовое такси для срочной перевозки вещей. Сотрудничество с нами выгодно и удобно.<br><br>
-						Мы ценим каждого клиента и следим за уровнем сервиса, скоростью перевозки, а также сохранностью имущества.</h4>
+					<h4>Мы предлагаем квалифицированные и недорогие услуги для частных и юридических лиц. Наш коллектив специалистов может перевезти товары в магазин и из магазина, реализовать офисный или дачный переезд. Также у нас можно вызвать грузовое такси для срочной перевозки вещей. Сотрудничество с нами выгодно и удобно.<br><br>
+					Мы ценим каждого клиента и следим за уровнем сервиса, скоростью перевозки, а также сохранностью имущества.</h4>
 
-						<a  class="button1">Заказать</a>
-					</div>
-					<div class="col-lg-6 car ">
+					<a  class="button1">Заказать</a>
+				</div>
+				<div class="col-lg-6 car ">
 					<img src="img/car.png" alt="">
-					</div>
+				</div>
 				
 			</div>
 		</div>
 	</div>
-  </-->
-  <div class="kybiki">
-	<div class="container ">
+	</-->
+	<div class="kybiki">
+		<div class="container ">
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6 actia">
+					<div class="offer-item first">
+						<div class="pull-left">
+							<big>Ночью <br> дешевле</big>
+						</div>
+						<div class="pull-right1"><small>от</small> 599р
+						</div>
+						<div class="offer-item-info">Подробности у оператора
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 actia">
+					<div class="offer-item second">
+						<div class="pull-left1 gas">
+							<big class="big">То, что надо</big><br> Газель и грузчик<br>
+							на 1 час
+						</div>
+						<div class="pull-right1"> 1590р
+						</div>
+						<div class="offer-item-info">Подробности у оператора
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 actia">
+					<div class="offer-item last">
+						<div class="pull-left1">
+							<big>Бесплатный вынос
+							чугунных ванн и батарей</big>
+						</div>
+						<div class="pull-right1">
+						</div>
+						<div class="offer-item-info">Подробности у оператора
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<a name="yslugi"></a>
+	</div>
+	<div class="container">
+		<h1 class="text-center">Наши услуги</h1>
 		<div class="row">
-		
-			<div class="col-lg-4 col-md-6 actia">
-				<div class="offer-item first">
-					<div class="pull-left">
-						<big>Ночью <br> дешевле</big>
+
+			
+			<div class="col-lg-12 justify-content-center slider  slider-nav ">
+				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Квартирный <br> переезд</h2>
 					</div>
-					<div class="pull-right1"><small>от</small> 599р
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Офисный <br> переезд</h2>
 					</div>
-					<div class="offer-item-info">Подробности у оператора
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Дачный <br> переезд</h2>
 					</div>
-				</div>
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Перевозка <br>мебели</h2>
+					</div>
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Грузовое <br>такси</h2>
+					</div>
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Перевозка<br> стройматериалов</h2>
+					</div>
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Газель <br>"Рефрижератор"</h2>
+					</div>
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Перевозка<br> молочных<br> продуктов</h2>
+					</div>
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Квартирный <br> переезд</h2>
+					</div>
+				</div> 				<div class="slider-nav_verh"> 
+					<img  class="slider-nav_verh_png" src="img/usl/1.png" alt="">
+					<div class="slider-nav_verh_text">
+						<h2 >Квартирный <br> переезд</h2>
+					</div>
+				</div> 
+
 			</div>
-			<div class="col-lg-4 col-md-6 actia">
-				<div class="offer-item second">
-					<div class="pull-left1 gas">
-						<big class="big">То, что надо</big><br> Газель и грузчик<br>
-на 1 час
-					</div>
-					<div class="pull-right1"> 1590р
-					</div>
-					<div class="offer-item-info">Подробности у оператора
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 actia">
-				<div class="offer-item last">
-					<div class="pull-left1">
-						<big>Бесплатный вынос
-чугунных ванн и батарей</big>
-					</div>
-					<div class="pull-right1">
-					</div>
-					<div class="offer-item-info">Подробности у оператора
+			<div class="col-lg-12 justify-content-center slider slider-for">
+
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/usl1.png" alt="">
+						</div><div class="col-lg-6"><h2>Квартирный переезд</h2><p class="p">Качество услуг грузчиков так же важно, как и транспорт для грузоперевозки. Наши вежливые грузчики работают аккуратно, круглосуточно и по гибким тарифам. Поднять тяжелую мебель или габаритные материалы можно оплачивая каждый предмет отдельно, либо заказать грузчиков с почасовой оплатой. Каждый следующий час — дешевле!</p>
+							<div class="button button_slider">	
+								<a href="#form" class="popup button1 button_usl" title="Оформить заказ"  ">Кнопка</a>
+							</div>
+						</div>
 					</div>
 				</div>
+
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/2.png" alt="">
+						</div><div class="col-lg-6"><h2>Офисный переезд</h2><p class="p">Вместе с «ГрузовичкоФ» переезд офиса пройдет гладко и без задержек. Менеджер заранее согласует с вами сроки выполнения и стоимость услуг, а точный бюджет рассчитает оценщик — за его выезд клиент не платит. Доступны: стандартная перевозка, грузчики для переезда и организация переезда под ключ, — сюда входит установка техники, сборка мебели и монтаж офисных перегородок.</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/3.png" alt="">
+						</div><div class="col-lg-6"><h2>Дачный переезд</h2><p class="p">«ГрузовичкоФ» аккуратно и быстро перевезет все для дачи. Размер предметов роли не играет: гарантируем бережную доставку массивного шкафа, газонокосилки и другого садового инвентаря. Не только грузоперевозки по Ленинградской области, но и по всей России — доставим вещи в любую точку, куда только можно добраться на автомобиле.</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/4.png" alt="">
+						</div><div class="col-lg-6"><h2>Перевозка мебели</h2><p class="p">«ГрузовичкоФ» — это надежные грузоперевозки в Санкт-Петербурге для негабаритной мебели. В фургонах установлены крепежи — так без повреждений перевозятся даже громоздкие предметы. Страховка вещей бесплатна, а наши специалисты могут сами демонтировать мебель, аккуратно упаковать, собрать и установить на месте прибытия.</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/5.png" alt="">
+						</div><div class="col-lg-6"><h2>Грузовое такси</h2><p class="p">«ГрузовичкоФ» предлагает услугу — такси для ваших вещей. Прямо к подъезду прибудет компактный грузовой автомобиль, куда поместится мебель, бытовая техника, крупные музыкальные инструменты и все остальное. Грузовое такси удобнее и мобильнее, чем обычные грузоперевозки в СПб, подается спустя 15 минут и в любое время суток.</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/6.png" alt="">
+						</div><div class="col-lg-6"><h2>Перевозка стройматериалов</h2><p class="p">Если вам необходимо перевезти строительные материалы, смело обращайтесь в «ГрузовичкоФ»! В нашем парке автомобилей найдется кузов для крупного бруса, сыпучих материалов, габаритных или хрупких предметов — доставим в сохранности любые предметы для ремонта и строительства. А для более сложных задач всегда доступны аккуратные грузчики и спецтехника.</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/7.png" alt="">
+						</div><div class="col-lg-6"><h2>Газель "Рефрижератор"</h2><p class="p">Холодильные установки в газели рефрижераторе могут поддерживать температурный режим в диапазоне от -18 до +18° С. Специальные изотермические прослойки обеспечивают полную защиту груза от всех внешних воздействий среды (дождь, ветер, любая непогода). Отдельно следует отметить, что при перевозке по пыльным и грязным дорогам любой груз будет так же полностью защищен и сохранит товарный вид. </p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/usl1.png" alt="">
+						</div><div class="col-lg-6"><h2>Перевозка молочных продуктов</h2><p class="p">Перевозка молока и молочных продуктов осуществляется компанией «Перевозкин» быстро, профессионально и с соблюдением всех условий. Так, при перевозке молока мы используем рефрижераторы, в которых постоянно поддерживается температура на отметке от +2 до +4 градусов. Молоко транспортируется только в охлажденном виде.Помимо перевозки молока, мы выполняем транспортировку молочных продуктов: сметаны, творога и других товаров. С нами сотрудничают перекупщики, а также владельцы торговых точек и розничных магазинов. Заказывайте перевозку молока и прочих продуктов у грузоперевозчика, которому можно доверять!</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/usl1.png" alt="">
+						</div><div class="col-lg-6"><h2>7 переезд</h2><p class="p">Качество услуг грузчиков так же важно, как и транспорт для грузоперевозки. Наши вежливые грузчики работают аккуратно, круглосуточно и по гибким тарифам. Поднять тяжелую мебель или габаритные материалы можно оплачивая каждый предмет отдельно, либо заказать грузчиков с почасовой оплатой. Каждый следующий час — дешевле!</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class=" row slide_for">
+						<div class="col-lg-6"><img class="img_usl1" src="img/usl1.png" alt="">
+						</div><div class="col-lg-6"><h2>8 переезд</h2><p class="p">Качество услуг грузчиков так же важно, как и транспорт для грузоперевозки. Наши вежливые грузчики работают аккуратно, круглосуточно и по гибким тарифам. Поднять тяжелую мебель или габаритные материалы можно оплачивая каждый предмет отдельно, либо заказать грузчиков с почасовой оплатой. Каждый следующий час — дешевле!</p>
+							<div class="button button_slider">
+								<a href="#" class="button1 button_usl" title="Оформить заказ">Оформить заказ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
 
 		</div>
 	</div>
-<a name="yslugi"></a>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="libs/bootstrap.min.js" ></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+
+	<script src="libs/bootstrap.min.js" ></script>
+	<script src="js/common.js" ></script>
 
 
-<script type="text/javascript" src="js/common.js"></script>
-		</body>
-		</html>		
+
+	<script type="text/javascript">
+
+	</script>
+
+</body>
+</html>		
