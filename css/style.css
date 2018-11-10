@@ -261,4 +261,9 @@ h3 {
   .pull-left1 {
     width: 100%;
     display: inline-block;
+    text-align: center; }
+  .slide_for h2 {
+    padding-top: 20px;
+    text-align: center; }
+  .slide_for p {
     text-align: center; } }
