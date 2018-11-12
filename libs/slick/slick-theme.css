@@ -206,15 +206,15 @@
 }
 @media screen and (max-width: 400px) {
     .slick-prev {
-        left: 5px; }
+        margin-left: -22px; }
     .slick-next{
-        right: 0 ;
+        margin-right: -22px;
     }
    }
 @media screen and (max-width: 768px) {
     .slick-prev {
-        left: 20px; }
+        margin-left: -2px; }
     .slick-next{
-        right: 0 ;
+        margin-right: -2px;
     }
    }
