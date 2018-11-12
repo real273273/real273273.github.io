@@ -384,6 +384,10 @@ h3 {
       background-image: url(../img/usl/sprite.png?v=1);
       background-position: 0 -5923px; }
 
+.slider-nav {
+  margin-right: auto;
+  margin-left: auto; }
+
 .slider-nav_verh_text {
   padding-top: 20px;
   text-align: center; }
@@ -470,6 +474,9 @@ h3 {
   height: 72px;
   margin: 5px auto; }
 
+.button_slider {
+  padding-left: 20px; }
+
 /*секция выбора машин*/
 .auto_product_head_G h1 {
   text-align: center;
@@ -535,7 +542,18 @@ h3 {
   border-radius: 5px; }
 
 .auto_product_button {
-  margin-top: -10px; }
+  margin-top: auto;
+  display: block; }
+
+.button1_product {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333;
+  padding: auto;
+  border: 2px solid #AABCAA;
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #2c2626; }
 
 .auto_product_price_old {
   text-decoration: line-through;
@@ -551,13 +569,6 @@ h3 {
 
 .auto_product_price small {
   font-size: 18px; }
-
-.button1_product {
-  text-align: center;
-  background-color: #333;
-  margin: 20px 40px 20px;
-  border: 2px solid #AABCAA;
-  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #2c2626; }
 
 /*медиазапросы*/
 @media screen and (max-width: 768px) {
@@ -608,6 +619,8 @@ h3 {
     text-align: center; }
   .slider_next {
     margin-bottom: -250px; }
+  .img_usl1 {
+    margin: 0; }
   .slide_for h2 {
     padding-top: 20px;
     text-align: center; }
@@ -618,4 +631,6 @@ h3 {
   .auto_product_head_G h1 {
     padding: 5px 0 5px; }
   .auto_P {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .button1_product {
+    margin: 10px auto; } }
