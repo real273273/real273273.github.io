@@ -1,269 +1,618 @@
-@charset "UTF-8";
-.header {
-  background-color: #333; }
 
-.logo {
-  margin-top: 10px;
-  width: 150px;
-  height: 55px;
-  /*меню*/ }
 
-.header_menu {
-  background-color: #333; }
+.header 
+  background-color: #333
+  
+.logo
+  margin-top: 10px
+  width: 150px
+  height: 55px
+  /*меню*/
+.header_menu
+  background-color: #333
+.menu_item
+  padding: 10px 10px 0
+  
+.nav-link 
+  font-size: 18px
+.phone
+  
+  i
+    padding-right: 5px
+.nav-link:hover
+  color: #fff
+  background-color: #50b848
+  transition: 0.35s ease
+  border-radius: 10px
 
-.menu_item {
-  padding: 10px 10px 0; }
+.phone
+  font-size: 18px
+  color: #9d9d9d
+  display: block
+  padding-top: 17px
+.phone:hover
+  color: #fff
+  text-decoration: none
+  transition: 0.55s ease
+  transform: scale(1.1,1.1)
 
-.nav-link {
-  font-size: 18px; }
+#headerwrap
+  background: #e0e0e0
+  margin-top: 80px
+  padding-top: 20px
+  text-align: center
+  background-position: center center
+  min-height: 500px
+  background-attachment: relative
+  width: 100%
+  background-color: rgba(0, 0, 0, 0.1)
+  background-blend-mode: darken
+  -webkit-background-size: cover
+  -o-background-size: cover
+  -webkit-background-size: cover
+  background-size: cover
 
-.phone i {
-  padding-right: 5px; }
 
-.nav-link:hover {
-  color: #fff;
-  background-color: #50b848;
-  transition: 0.35s ease;
-  border-radius: 10px; }
+#headerwrap
+  margin-top: 0
+  h1
+    margin-top: 20px
+    line-height: 10%
+    color: dark
+    font-size: 40px
+    font-weight: 300
+    letter-spacing: 3px
+    text-transform: none
+  h2
+    color: #50b848
+    font-family: 'Bangers', cursive
+    line-height: 55%
+    font-size: 60px
+    letter-spacing: 2px
+    text-transform: none
+    margin-top: 20px
+  h4
+    padding-top: 20px
+    text-align: left
+    padding-bottom: 40px
+.button1 
+  position: relative
+  color: #fff
+  background-color: #50b848
+  display: inline-block
+  
+  width: 12em
+  height: 2.8em
+  line-height: 2.5em
+  vertical-align: middle
+  text-align: center
+  text-decoration: none
+  text-shadow: 0 -1px 1px #fff
+  outline: none
+  border: 2px solid #50b848
+  border-radius: 10px
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #800
+  background: #50b848
+  font-size: 18px
+  &:link
+    
+    color: #fff
+    text-decoration: none
+  &:visited
+    top: .1em
+    left: .1em
+    color: #fff
+    text-decoration: none
+  &:active
+    top: .1em
+    left: .1em
+    color: #fff
+    text-decoration: none
+  &:hover
+    color: #fff
+    text-decoration: none
+  
 
-.phone {
-  font-size: 18px;
-  color: #9d9d9d;
-  display: block;
-  padding-top: 17px; }
+.car img
+  position: relative
+  padding-right: 97px
+  width: 950px
+  height: 650px
+  margin-left: -100px
 
-.phone:hover {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.55s ease;
-  transform: scale(1.1, 1.1); }
+/*causes Грузоперевозки в Саратове 14 причин заказать в «Перевозкин»*/
+.causes
+  padding-bottom: 40px
+  h1
+    text-align: center
+    padding: 30px 0
+.causes_main
+  text-align: center
+  margin-bottom: 40px
+.causes_main_figure
+  text-align: 
 
-#headerwrap {
-  background: #e0e0e0;
-  margin-top: 80px;
-  padding-top: 20px;
-  text-align: center;
-  background-position: center center;
-  min-height: 500px;
-  background-attachment: relative;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-  background-blend-mode: darken;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; }
+.causes_main_span1
+  display: inline-block
+  padding: 0 auto
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -5719px
+  vertical-align: middle
+  width: 64px
+  height: 72px
+  margin: 5px auto
+.causes_main_span2
+  display: inline-block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -6066px
+  vertical-align: middle
+  padding: 0 auto
+  width: 78px
+  height: 72px
+  margin: 5px auto
+.causes_main_span3
+  display: inline-block
+  padding: 0 auto
+  vertical-align: middle
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -5516px
+  padding: 0 auto
+  width: 78px
+  height: 70px
+  margin: 5px auto
+.causes_main_span4
+  display: inline-block
+  vertical-align: middle
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -5582px
+  width: 86px
+  height: 70px
+  margin: 5px auto
 
-#headerwrap {
-  margin-top: 0; }
-  #headerwrap h1 {
-    margin-top: 20px;
-    line-height: 10%;
-    color: dark;
-    font-size: 40px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    text-transform: none; }
-  #headerwrap h2 {
-    color: #50b848;
-    font-family: 'Bangers', cursive;
-    line-height: 55%;
-    font-size: 60px;
-    letter-spacing: 2px;
-    text-transform: none;
-    margin-top: 20px; }
-  #headerwrap h4 {
-    padding-top: 20px;
-    text-align: left;
-    padding-bottom: 40px; }
-
-.button1 {
-  position: relative;
-  color: #fff;
-  background-color: #50b848;
+figcaption 
+  text-align: center
+  vertical-align: middle
+  margin: 0 auto
+  padding: 0 auto
+  width: 72%
+  font-size: 17px
+  line-height: 20px
+  font-weight: 700
+ 
+  /*causes подблок*/
+.causes_secondary_i
+  margin: 0 0 25px
+.causes_secondary_i_span_1
+  background-image: url(../img/usl/sprite.png)
   display: inline-block;
-  width: 12em;
-  height: 2.8em;
-  line-height: 2.5em;
-  vertical-align: middle;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: 0 -1px 1px #fff;
-  outline: none;
-  border: 2px solid #50b848;
-  border-radius: 10px;
-  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #800;
-  background: #50b848;
-  font-size: 18px; }
-  .button1:link {
-    color: #fff;
-    text-decoration: none; }
-  .button1:visited {
-    top: .1em;
-    left: .1em;
-    color: #fff;
-    text-decoration: none; }
-  .button1:active {
-    top: .1em;
-    left: .1em;
-    color: #fff;
-    text-decoration: none; }
-  .button1:hover {
-    color: #fff;
-    text-decoration: none; }
+  background-position: 0 -1975px
+  width: 60px
+  vertical-align: middle
+  height: 45px
+.causes_secondary_i_span_2
+  background-image: url(../img/usl/sprite.png)
+  display: inline-block;
+  background-position: 0 -3783px
+  width: 60px
+  vertical-align: middle
+  height: 50px
+.causes_secondary_i_span_3
+  background-image: url(../img/usl/sprite.png)
+  display: inline-block;
+  background-position: 0 -3834px
+  width: 60px
+  vertical-align: middle
+  height: 50px
+.causes_secondary_i_span_4
+  background-image: url(../img/usl/sprite.png)
+  display: inline-block;
+  background-position: 0 -3433px
+  width: 60px
+  vertical-align: middle
+  height: 50px
+.causes_secondary_i_span_5
+  background-image: url(../img/usl/sprite.png)
+  display: inline-block;
+  background-position: 0 -2844px
+  width: 60px
+  vertical-align: middle
+  height: 47px
+.causes_secondary_i_span_6
+  background-image: url(../img/usl/sprite.png)
+  display: inline-block;
+  background-position: 0 -3885px
+  width: 60px
+  vertical-align: middle
+  height: 47px
+.causes_secondary_i_span_7
+  background-image: url(../img/usl/sprite.png)
+  display: inline-block;
+  background-position: 0 -3583px
+  width: 60px
+  vertical-align: middle
+  height: 47px
+.causes_secondary_i_span_8
+  background-image: url(../img/usl/sprite.png)
+  display: inline-block;
+  background-position: 0 -2940px
+  width: 60px
+  vertical-align: middle
+  height: 47px
 
-.car img {
-  position: relative;
-  padding-right: 97px;
-  width: 950px;
-  height: 650px;
-  margin-left: -100px; }
+.causes_secondary_i
+  figcaption 
+    font-size: 17px;
+    display: inline-block
+    width: 80%
+    line-height: 20px
+    font-weight: 700
+    font-family: ProximaNova
+    text-align: left
+    
+.kybiki
+  background-color: #434343
+  padding: 40px
 
-.kybiki {
-  background-color: #434343;
-  padding: 40px; }
+.first
+  background: linear-gradient(to top right, #222, #225)
+  font-family: 'Roboto', sans-serif
+  height: 200px
 
-.first {
-  background: linear-gradient(to top right, #222, #225);
-  font-family: 'Roboto', sans-serif;
-  height: 200px; }
+.second, .last
+  background: linear-gradient(to top right, #222, #225)
+  big
+    font-size: 20px
 
-.second, .last {
-  background: linear-gradient(to top right, #222, #225); }
-  .second big, .last big {
-    font-size: 20px; }
+.offer-item
+  color: #fff
+  border: 2px solid #F64C2B
+  border-radius: 15px
+  padding: 30px 20px 0
+  position: relative
+  height: 150px
+  font-size: 18px
 
-.offer-item {
-  color: #fff;
-  border: 2px solid #F64C2B;
-  border-radius: 15px;
-  padding: 30px 20px 0;
-  position: relative;
-  height: 150px;
-  font-size: 18px; }
+.pull-left1
+  float: left
 
-.pull-left1 {
-  float: left; }
+.pull-right1
+  font-size: 40px
+  line-height: 60px
+  letter-spacing: -3px
+  float: right !important
 
-.pull-right1 {
-  font-size: 40px;
-  line-height: 60px;
-  letter-spacing: -3px;
-  float: right !important; }
+.offer-item-info
+  font-size: 15px
+  text-transform: uppercase
+  opacity: .5
+  right: 20px
+  bottom: 10px
+  position: absolute
+  padding-top: 80px
 
-.offer-item-info {
-  font-size: 15px;
-  text-transform: uppercase;
-  opacity: .5;
-  right: 20px;
-  bottom: 10px;
-  position: absolute;
-  padding-top: 80px; }
 
-.column h2 {
-  font-family: 'Bangers', cursive;
-  font-weight: 700;
-  font-size: 3rem;
-  color: #50b848;
-  line-height: 1.5;
-  letter-spacing: -.01rem;
-  margin-top: .8em;
-  margin-bottom: 40px; }
 
-body {
-  background-color: #fff; }
+.column h2
+  font-family: 'Bangers', cursive
+  font-weight: 700
+  font-size: 3rem
+  color: #50b848
+  line-height: 1.5
+  letter-spacing: -.01rem
+  margin-top: .8em
+  margin-bottom: 40px
 
-.js .slider-single > div:nth-child(1n+2) {
-  display: none; }
 
-.js .slider-single.slick-initialized > div:nth-child(1n+2) {
-  display: block; }
+body
+  background-color: #fff
 
-h3 {
-  background: #f0f0f0;
-  color: #3498db;
-  font-size: 2.25rem;
-  margin: .5rem;
-  padding: 2%;
-  position: relative;
-  text-align: center; }
+.js .slider-single
+  > div:nth-child(1n+2)
+    display: none
+  &.slick-initialized > div:nth-child(1n+2)
+    display: block
 
+h3
+  background: #f0f0f0
+  color: #3498db
+  font-size: 2.25rem
+  margin: .5rem
+  padding: 2%
+  position: relative
+  text-align: center
 /*слайдер*/
-.text-center {
-  text-align: center;
-  padding: 40px 0 30px; }
 
-.slide_for {
-  border: 2px solid #50b848;
-  border-radius: 10px;
-  padding: 40px 15px; }
+.text-center
+  
+  text-align: center
+  padding: 40px 0 30px
 
-.img_usl1 {
-  height: 100%;
-  width: 100%;
-  margin: 20px; }
+.slide_for
+  border: 2px solid #50b848
+  border-radius: 10px
+  padding: 40px 15px
+.img_usl1
+  height: 100%
+  width: 100%
+  margin: 20px
+  
 
-.slider-nav_verh {
-  min-height: 170px;
-  background-color: #fff; }
-  .slider-nav_verh:hover {
-    background-color: #50b848;
-    color: #fff;
-    border-radius: 10px; }
+.slider-nav_verh
+  min-height: 170px
+  align-items: center
+  display: flex
+  background-color: #fff
+  &:hover
+    background-color: #50b848
+    color: #fff
+    border-radius: 10px
+    .slider-nav_verh_span_1
+      display: block
+      background-image: url(../img/usl/sprite.png?v=1)
+      background-position: 0  -9563px
+      
+    .slider-nav_verh_span_2
+      background-image: url(../img/usl/sprite.png?v=1)
+      background-position: 0  -9871px
+    .slider-nav_verh_span_3
+      background-image: url(../img/usl/sprite.png?v=1)
+      background-position: 0  -6440px
+    .slider-nav_verh_span_4
+      background-image: url(../img/usl/sprite.png?v=1)
+      background-position: 0  -8100px
+    .slider-nav_verh_span_5
+        display: block
+        background-image: url(../img/usl/sprite.png?v=1)
+        background-position: 0 -8947px
+    .slider-nav_verh_span_7
+        display: block
+        background-image: url(../img/usl/sprite.png?v=1)
+        background-position: 0 -7713px
+    .slider-nav_verh_span_9
+        display: block
+        background-image: url(../img/usl/sprite.png?v=1)
+        background-position: 0 -9255px
+    .slider-nav_verh_span_10
+        display: block
+        background-image: url(../img/usl/sprite.png?v=1)
+        background-position: 0 -8870px
+    .slider-nav_verh_span_8
+        display: block
+        background-image: url(../img/usl/sprite.png?v=1)
+        background-position: 0 -5923px
 
-.slider-nav_verh_png {
-  margin: auto;
-  padding-top: 20px; }
 
-.slider-nav_verh_text {
-  padding-top: 20px;
-  text-align: center; }
-  .slider-nav_verh_text h2 {
-    font-size: 18px; }
+.slider-nav_verh_text
+  padding-top: 20px
+  text-align: center
+  h2
+    font-size: 18px 
 
+.slider-nav_verh_span_1
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -9486px
+  width: 63px
+  height: 72px
+  margin: 5px auto
+
+.slider-nav_verh_span_2
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -9332px
+  width: 63px
+  height: 72px
+  margin: 5px auto
+.slider-nav_verh_span_3
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -6515px
+  width: 63px
+  height: 72px
+  margin: 5px auto
+
+
+
+.slider-nav_verh_span_4
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -9178px
+  width: 63px
+  height: 72px
+  margin: 5px auto
+
+.slider-nav_verh_span_5
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0  -8562px
+  width: 63px
+  height: 72px
+  margin: 5px auto
+.slider-nav_verh_span_6
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -9024px
+  width: 96px
+  height: 72px
+  margin: 5px auto
+
+.slider-nav_verh_span_7
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -7487px
+  width: 63px
+  height: 72px
+  margin: 5px auto
+
+.slider-nav_verh_span_8
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -5996px
+  width: 83px
+  height: 72px
+  margin: 5px auto
+.slider-nav_verh_span_9
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -8331px
+  width: 63px
+  height: 72px
+  margin: 5px auto
+.slider-nav_verh_span_10
+  display: block
+  background-image: url(../img/usl/sprite.png?v=1)
+  background-position: 0 -8793px
+  width: 93px
+  height: 72px
+  margin: 5px auto
+/*секция выбора машин*/
+.auto_product_head_G
+  h1
+    text-align: center
+    padding: 40px 0 40px
+.auto_product_head
+  text-align: center
+  padding: 10px 0 10px
+
+.auto_product_1
+  display: block
+
+  border: 2px #434343 solid
+  border-radius: 10px
+  width: 90%
+  
+.auto_product_head_span
+  background-color: #434343
+  font-weight: 600
+  color: #fff
+  float: right
+  margin-right: 15px
+  padding: 5px
+.auto_product_foto
+  padding-left: 10px
+  text-align: left
+  img
+    margin: 0 auto 20px
+    width: 280px
+    height: 250px
+    
+  .auto_product_foto_p1
+    text-align: left
+    font-size: 25px
+    font-weight: 602
+    text-transform: uppercase
+    padding-top: 20px
+  .auto_product_foto_p2
+    text-align: left
+    
+  .auto_product_foto_p3
+    text-align: center
+    font-weight: 600
+    font-size: 20px  
+    padding: 0
+    margin: -4px
+.auto_product_head
+  line-height: 0.4
+  color: #474747
+.style_inf
+  text-align: left
+  padding: 0 10px
+  line-height: 1.3
+  color: #474747
+  dd
+    margin-top: -1.3em
+    text-align: right
+    margin-bottom: 3px
+.bgc_even
+  background-color: rgba(91, 127, 166, 0.22)
+  border-radius: 5px
+.auto_product_button
+  margin-top: -10px
+
+.auto_product_price_old
+  text-decoration: line-through
+  padding-left: 10px
+  color: #ff3535
+  small,b
+    color: #888
+    padding-left: 10px
+.auto_product_price
+  b
+    font-size: 25px
+    color: #474747
+  small
+    font-size: 18px
+.button1_product
+  text-align: center
+  background-color: #333
+  margin: 20px 40px 20px
+  border: 2px solid #AABCAA
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #2c2626;
 /*медиазапросы*/
-@media screen and (max-width: 768px) {
-  .logo {
-    display: block;
-    width: 100px; }
-  .toggle_button {
-    position: right; }
-  .nav-link {
-    text-align: center; }
-  .car img {
-    display: none; }
-  #headerwrap {
-    padding-bottom: 20px; }
-    #headerwrap h1 {
-      font-size: 30px; }
-    #headerwrap h2 {
-      font-size: 30px; }
-  .kybiki {
-    padding-top: 20px; }
-  .actia {
-    padding: 10px 0 10px 0; } }
+@media  screen and (max-width : 768px)
+  .logo
+    display: block
+    width: 100px
+  .toggle_button
+    position: right
+  .nav-link
+    text-align: center
 
-@media screen and (max-width: 400px) {
-  .actia {
-    padding: 10px 0 10px 0; }
-  .pull-right1 {
-    display: none; }
-  .pull-left {
-    width: 100%;
-    display: inline-block;
-    text-align: center; }
-  .offer-item {
-    padding: 10px 20px 0;
-    line-height: 1.2;
-    text-align: center; }
-  .offer-item-info {
-    bottom: 25px; }
-  .pull-left1 {
-    width: 100%;
-    display: inline-block;
-    text-align: center; }
-  .slide_for h2 {
-    padding-top: 20px;
-    text-align: center; }
-  .slide_for p {
-    text-align: center; } }
+  .car 
+    img
+     display: none
+  #headerwrap
+    padding-bottom: 20px
+    h1
+      font-size: 30px
+    h2
+      font-size: 30px
+  .kybiki
+    padding-top: 20px
+  .actia
+    padding: 10px 0 10px 0
+  .slider_next
+    margin-bottom: -170px
+  .auto_P
+    padding-top: 20px
+@media  screen and (max-width : 400px)
+  .causes_main_figure
+    figcaption
+      display: inline-block
+  .actia
+    padding: 10px 0 10px 0
+  .pull-right1
+    display: none
+  .pull-left
+    width: 100%
+    display: inline-block
+    text-align: center
+    
+  .offer-item
+    padding: 10px 20px 0
+    line-height: 1.2
+    text-align: center
+ 
+  .offer-item-info
+    bottom: 25px 
+  .pull-left1
+    width: 100%
+    display: inline-block
+    text-align: center
+  .slider_next
+    margin-bottom: -250px
+  .slide_for
+    h2
+      padding-top: 20px
+      text-align: center
+    p
+      text-align: center
+  .auto_product_foto
+    img
+      margin: auto
+
+  .auto_product_head_G
+    h1
+      padding: 5px 0 5px
+  .auto_P
+    padding-top: 20px
