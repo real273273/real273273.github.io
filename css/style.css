@@ -688,7 +688,7 @@ h3.city-name {
 
 .rounded-img-wrap {
   border-radius: 10em;
-  border: red 6px solid;
+  border: #50b848 6px solid;
   overflow: hidden;
   width: 135px;
   height: 135px;
