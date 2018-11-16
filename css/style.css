@@ -317,15 +317,6 @@ body {
 .js .slider-single.slick-initialized > div:nth-child(1n+2) {
   display: block; }
 
-h3 {
-  background: #f0f0f0;
-  color: #3498db;
-  font-size: 2.25rem;
-  margin: .5rem;
-  padding: 2%;
-  position: relative;
-  text-align: center; }
-
 /*слайдер*/
 .text-center {
   text-align: center;
@@ -478,6 +469,9 @@ h3 {
   padding-left: 20px; }
 
 /*секция выбора машин*/
+.auto_product {
+  padding-bottom: 40px; }
+
 .auto_product_head_G h1 {
   text-align: center;
   padding: 40px 0 40px; }
@@ -548,9 +542,8 @@ h3 {
 .button1_product {
   text-align: center;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #333;
+  margin: 0 auto 20px;
   padding: auto;
   border: 2px solid #AABCAA;
   box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #2c2626; }
@@ -569,6 +562,169 @@ h3 {
 
 .auto_product_price small {
   font-size: 18px; }
+
+/*секция отзывы*/
+.otzivi {
+  padding: 40px 0 40px;
+  background-color: #e0e0e0; }
+  .otzivi h2 {
+    text-align: center;
+    padding: 40px 0;
+    font-weight: 600; }
+
+.rounded-img-wrap {
+  border-radius: 10em;
+  border: #50b848 6px solid;
+  overflow: hidden;
+  width: 135px;
+  height: 135px;
+  text-align: center;
+  margin: auto; }
+  .rounded-img-wrap img {
+    max-width: 100%; }
+  .rounded-img-wrap:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
+
+.inner-testimonial {
+  text-align: center;
+  padding-top: 15px; }
+  .inner-testimonial > img {
+    max-width: 128px;
+    margin: 0 auto 15px;
+    opacity: 0;
+    -webkit-transition: all 1.3s linear;
+    transition: all 1.3s linear; }
+
+h3.city-name {
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900; }
+
+.text-testimonial {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 25px; }
+
+.slider_otziv_i {
+  margin: auto; }
+
+.footer {
+  background-color: #333; }
+
+.menu_footer {
+  margin-bottom: 10px; }
+
+.footer_icons {
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+  padding-left: auto; }
+  .footer_icons .fa {
+    font-size: 20px;
+    padding: 20px 10px;
+    color: #fff;
+    opacity: 0.5; }
+
+.hidden {
+  display: none; }
+
+#form {
+  padding: 30px;
+  background-color: #ffffff;
+  max-width: 350px;
+  margin: auto;
+  position: relative; }
+
+#form input {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 15px;
+  outline: 0;
+  border: 0;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px; }
+
+.button_form {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 10px; }
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out; }
+  .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8; }
+  .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0; }
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out; }
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1; }
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0; }
+
+.rounded-img-wrap {
+  border-radius: 10em;
+  border: red 6px solid;
+  overflow: hidden;
+  width: 135px;
+  height: 135px;
+  text-align: center;
+  margin: auto; }
+  .rounded-img-wrap img {
+    max-width: 100%; }
+  .rounded-img-wrap:hover {
+    transform: scale(1.2); }
+
+.jacor {
+  margin-bottom: 10px;
+  opacity: 1;
+  background-color: #000; }
+
+.contact-form {
+  padding: 32px 26px;
+  background-color: black; }
+  .contact-form .button {
+    margin-top: 20px; }
+  .contact-form-head {
+    text-align: center; }
+    .contact-form-head h4 {
+      font-size: em(18px);
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 5px; }
+    .contact-form-head p {
+      color: #fff;
+      opacity: .6;
+      font-size: em(14px);
+      margin-top: 0px; }
+
+.text-center {
+  text-align: center;
+  margin-bottom: 40px; }
 
 /*медиазапросы*/
 @media screen and (max-width: 768px) {
@@ -589,12 +745,12 @@ h3 {
       font-size: 30px; }
   .kybiki {
     padding-top: 20px; }
+  .img_usl1 {
+    margin: 0; }
   .actia {
     padding: 10px 0 10px 0; }
   .slider_next {
     margin-bottom: -170px; }
-  .img_usl1{
-    margin: 0;}
   .auto_P {
     padding-top: 20px; } }
 
