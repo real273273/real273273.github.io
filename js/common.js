@@ -33,4 +33,19 @@ $('.slider-nav').slick({
     }
 ]
 });
+
+$('.slider_otziv').slick({
+  slidesToShow: 1,
+  prevArrow: "<button type='button' class='owl-prev pull-left'></button>",
+  nextArrow: "<button type='button' class='owl-next pull-right'></button>",
+  dots: true,
+});
+$('.popup').magnificPopup({
+  removalDelay: 450,
+  mainClass: 'mfp-fade'
+ }); 
+
+
+
+
 });
