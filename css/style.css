@@ -8,7 +8,9 @@ header {
   width: 100%;
   display: flex;
   position: fixed;
-  z-index: 999; }
+  z-index: 1000; }
+  header a:hover {
+    color: #fff; }
 
 .header_logo {
   text-transform: uppercase;
@@ -43,7 +45,10 @@ nav {
   font-weight: bold; }
 
 .topnav .icon {
-  display: none; }
+  display: none;
+  color: #fff; }
+  .topnav .icon i {
+    display: none; }
 
 .nav-link {
   font-size: 18px; }
@@ -790,11 +795,12 @@ h3.city-name {
 @media screen and (max-width: 1010px) {
   .topnav a {
     display: none; }
-  .topnav .icon {
+  .icon {
     float: right;
-    margin-top: -17px;
+    margin-top: 17px;
+    margin-right: 10px;
     display: block;
-    color: red;
+    color: #fff;
     font-size: 25px; }
   nav {
     width: 100%; }
@@ -838,11 +844,23 @@ h3.city-name {
     margin-left: auto;
     position: relative;
     display: block;
+    left: -100px;
     margin-right: auto; }
-  .topnav.responsive a {
-    float: center;
+    .responsive .topnav_a {
+      text-align: left; }
+  .topnav.responsive {
+    left: -100px; }
+  .phone_i {
+    margin-right: -14px;
+    margin-left: -14px; }
+  .topnav.responsive {
     display: block;
-    text-align: center; }
+    margin-right: auto;
+    margin-left: auto; }
+    .topnav.responsive a {
+      float: center;
+      display: block;
+      text-align: center; }
   .header_logo {
     margin-left: 0; }
   .toggle_button {
@@ -903,15 +921,12 @@ h3.city-name {
       padding-left: 15px; } }
 
 @media screen and (max-width: 400px) {
-  .topnav .icon {
-    float: right;
-    margin-top: -17px;
-    
-    color: #red;
-    font-size: 25px; }
-  .topnav.responsive a {
-    width: 200px;
-    text-align: left; }
+  .topnav.responsive .topnav_a {
+    padding: 10px 0;
+    margin-right: -30px;
+    margin-left: -30px; }
+  .topnav.responsive {
+    left: -84px; }
   .header_logo {
     margin-left: 0; }
   .actia {
