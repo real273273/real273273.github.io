@@ -15,6 +15,7 @@ $(document).ready(function() {
       }
     }
   ]
+
 });
 $('.slider-nav').slick({
   slidesToShow: 5,
@@ -39,6 +40,24 @@ $('.slider_otziv').slick({
   prevArrow: "<button type='button' class='owl-prev pull-left'></button>",
   nextArrow: "<button type='button' class='owl-next pull-right'></button>",
   dots: true,
+   responsive: [
+    {
+      breakpoint: 768,
+//сообщает, при какой ширине экрана нужно включать настройки
+      settings: {
+        dots: false,
+      }
+    }
+  ],
+  responsive: [
+    {
+      breakpoint: 400,
+//сообщает, при какой ширине экрана нужно включать настройки
+      settings: {
+        dots: false,
+      }
+    }
+  ]
 });
 $('.popup').magnificPopup({
   removalDelay: 450,
