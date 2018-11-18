@@ -903,6 +903,12 @@ h3.city-name {
       padding-left: 15px; } }
 
 @media screen and (max-width: 400px) {
+  .topnav .icon {
+    float: right;
+    margin-top: -17px;
+    
+    color: #red;
+    font-size: 25px; }
   .topnav.responsive a {
     width: 200px;
     text-align: left; }
