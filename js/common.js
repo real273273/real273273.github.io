@@ -35,6 +35,14 @@ $('.slider-nav').slick({
 ]
 });
 
+menu.onclick=function myFunction(){
+  var x= document.getElementById('myTopnav');
+  if(x.className === "topnav") {
+    x.className += " responsive";
+  }else {
+    x.className = "topnav";
+  }
+}
 $('.slider_otziv').slick({
   slidesToShow: 1,
   prevArrow: "<button type='button' class='owl-prev pull-left'></button>",
@@ -64,7 +72,7 @@ $('.popup').magnificPopup({
   mainClass: 'mfp-fade'
  }); 
 
-$("#menu").on("click","a", function (event) {
+$(".menu").on("click","a", function (event) {
     //отменяем стандартную обработку нажатия по ссылке
     event.preventDefault();
 
